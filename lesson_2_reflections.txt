@@ -2,4 +2,11 @@ REFLECTIONS:
 What happens when you initialize a repository? Why do you need to do it?
 
 When you initialize a repository, a new git repository is created. You need to do this 
-in order to make git to keep track of the files in the repository. 
+in order to make git to keep track of the files in the repository.
+
+REFLECTIONS:
+How is the staging area different from the working directory and the repository? What 
+value do you think it offers?
+
+Staging area contains those files in the working directory that will be committed to
+the git repository next time. You use git add command to add file(s) to the staging area.   
