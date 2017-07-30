@@ -1,0 +1,71 @@
+REFLECTION 1
+How did viewing a diff between two versions of the file help you spot the bug 
+that was introduced?
+
+If files are long and have only few differences , then diff will show only a 
+few lines of code and it will be quite easy to spot the bug (you also see which
+lines were added ('+' sign) and which were deleted ('-' sign)).  
+
+REFLECTION 2
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If I have an easy access to the history of a file I could easily undo those changes that I find unnecessary now.
+
+Remark: Dropbox (for 30 days), GoogleDoc, Wikipedia have the versions of the documents saved. Also think: saving manual copies would be extremely tedious.
+
+Funny fact: Git is a British slang for something roughly equivalent to unpleasant person. Torvalds once said, I'm an egotistical bastard and I name all my projects after myself. First Linux, now Git. 
+
+
+							Concept Map
+
+						  Version control
+
+Manual         Dropbox        Google       Wikipedia   Git    SVN
+saving                         Docs                     ^
+													    |
+													    |		
+													  commit	
+
+
+REFLECTION: Manual Commits
+What do you think are pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+You can commit every meaningful change separately (and write a short description of the change made). This can be useful to trace the changes. 
+The cons might be that you may forget to commit the change. 
+The cons of automatical saving are that it is not always very logical (though you will not to worry about forgetting to commit at all).
+
+REFLECT: Multi-File Commits
+What do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git allows saving multiple files in one commit allows to commit simultaneously several files in a repository which are interrelated.   
+
+Version control systems allows you to break up a project you are working on into pieces. This allows you to think of your work in terms of a bunch of steps, and to be able to fix mistakes by moving forward and backward. 
+
+Git has a pretty steep learning curve, but it worth it. 
+
+
+REFLECT: Using Git to View History
+How can you use the commands git log and git diff to view the history of files?
+
+If you cd to the folder with git repository you can run git log command to get a list of all the commits made (you see id of each commit, name of the author, comments about the changes made.)
+git dif command followed by ids of two commits will show the difference between these to commits.
+
+Funny errors:
+Should not be doing an octopus
+You are in detached 'HEAD' state
+Panic!(the 'impossible' happened) - this is an output by GHC, compiler for Haskell.
+
+
+REFLECTION: Confidence from Version Control
+How might using version control make you more confident to make changes that could break something?
+
+I can make commits after every meaningful change, this way breaking down the history of changes. Even if something broke I can checkout previous commits to 
+find the last when things worked.
+
+Thoughts: 
+Version control system makes you more of a risk taker. The idea of exploration, of not be in fear of breaking things and not being able to fix them back.
+
+REFLECT: How Do You Want to Use Git?
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use Git for all the projects I am doing in Data Science. For instance the one with Tanya and those on Udacity.
