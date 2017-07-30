@@ -10,3 +10,31 @@ value do you think it offers?
 
 Staging area contains those files in the working directory that will be committed to
 the git repository next time. You use git add command to add file(s) to the staging area.   
+
+REFLECTIONS: Commit size
+How can you use the staging area to make sure that you have one commit per logical change?
+
+You can add to the staging area only those files that were modified in order to implement 
+this logical change.
+
+REFLECTIONS: When to Use Branches
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+
+When you want to try out several different directions in which to change your project you may find branches useful.
+
+REFLECTIONS: Visualizing with Diagrams
+How do the diagrams help you to visualize the branch structure?
+
+You see easily which commits can be reached from any other commit following path along the arrows to 
+parent commits.
+
+REFLECTIONS: Merging Two Branches
+What is the result of merging two branches together? Why do we represent it in the diagram the
+way we do?
+
+The result of merging two branches together is that we create a new commit in the currently checked
+out branch. It will have two parent commits.
+
+REFLECTIONS: Automatic vs Manual Merging
+What are the pros and cons of Git's automatic merging vs always doing merges manually?
