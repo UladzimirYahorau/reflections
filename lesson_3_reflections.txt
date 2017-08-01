@@ -18,4 +18,11 @@ REFLECTION: Local Copies of the Remote Branches
 What is the benefit of the last copy of the remote stored locally?
 
 The benefit might be that it you are going to work off-line for some time, you will have the access
-to the most up-to-date information about the remote. Also you will be able to merge remote branch into your local branch. 
+to the most up-to-date information about the remote. Also you will be able to merge remote branch into your local branch.
+
+REFLECTION: Collaboration using Git and GitHub
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+It is easier to track all the different changes made to files in the project by different 
+collaborators while using Git and GitHub rather than do it differently, say, on Basecamp.
+  
