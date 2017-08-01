@@ -38,3 +38,6 @@ out branch. It will have two parent commits.
 
 REFLECTIONS: Automatic vs Manual Merging
 What are the pros and cons of Git's automatic merging vs always doing merges manually?
+
+Pros: saves lots of time and helps to resolve some conflicts. 
+Cons: there could be tough situations, where expert can merge faster.
