@@ -4,3 +4,18 @@ When would you want to use a remote repository rather than keeping all your work
 
 I would use remote repository when I want to share my work with other people, for example, 
 when I collaborate on a project with others.
+
+REFLECTION: Why might you want to always pull changes manually rather than having Git automatically stayup-to-date with you remote repository?
+
+Sometimes you don't want to make things public while you are still working on them.
+
+REFLECTION: Forks, Clones and Branches
+Describe the differences between forks, clones and branches. When would you use one instead of another?
+
+Forking is cloning another person's repository on GitHub to your new repository on GitHab. You usually clone a repository from GitHub to your local machine or from local machine to local machine. Branches exist within the repository and they are used for exploring/trying different directions in the development of a project. 
+
+REFLECTION: Local Copies of the Remote Branches
+What is the benefit of the last copy of the remote stored locally?
+
+The benefit might be that it you are going to work off-line for some time, you will have the access
+to the most up-to-date information about the remote. Also you will be able to merge remote branch into your local branch. 
