@@ -25,4 +25,9 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 It is easier to track all the different changes made to files in the project by different 
 collaborators while using Git and GitHub rather than do it differently, say, on Basecamp.
-  
+
+
+REFLECTION: When to use a separate branch
+When would you like to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+
